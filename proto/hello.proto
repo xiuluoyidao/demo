@@ -1,8 +1,7 @@
 syntax = "proto3";
 
-option go_package = "github.com/xiuluoyidao/demo/grpc";
-// 包声明
-package grpc.example;
+package hello;
+option go_package = "grpc/hello";
 
 // 消息定义
 message HelloRequest {
